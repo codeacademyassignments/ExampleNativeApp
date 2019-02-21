@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details should match with old snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 2,
+      "justifyContent": "space-around",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "blue",
+      }
+    }
+  >
+    Welcome to React Native !!
+  </Text>
+</View>
+`;

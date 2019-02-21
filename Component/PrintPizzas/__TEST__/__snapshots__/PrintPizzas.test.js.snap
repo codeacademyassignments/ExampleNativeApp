@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PrintPizzas should match old snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+    }
+  }
+>
+  <TextInput
+    allowFontScaling={true}
+    onChangeText={[Function]}
+    placeholder="Enter text to translate"
+    style={
+      Object {
+        "fontSize": 25,
+        "height": 100,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+  <Text
+    style={
+      Object {
+        "fontSize": 42,
+      }
+    }
+  >
+    🍕
+  </Text>
+</View>
+`;
