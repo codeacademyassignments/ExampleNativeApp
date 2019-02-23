@@ -1,10 +1,13 @@
 import { View, Text } from 'react-native';
 import React from 'react';
+import DetailsStyle from './Details.style';
 
 class Details extends React.Component {
   render() {
     return (
-      <View style={{ flex: 2, alignItems: 'center', justifyContent: 'space-around' }}><Text style={{ color: 'blue' }}>Welcome to React Native !!</Text></View>
+      <View style={DetailsStyle.greetingsView}>
+        <Text style={DetailsStyle.greetingsText}>Welcome to React Native !!</Text>
+      </View>
     );
   }
 }
